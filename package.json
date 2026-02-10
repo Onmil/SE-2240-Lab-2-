@@ -1,0 +1,27 @@
+{
+  "name": "se-2240-lab-2-",
+  "version": "1.0.0",
+  "description": "lab 2 for SE TESTING",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onmil/SE-2240-Lab-2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Onmil/SE-2240-Lab-2-/issues"
+  },
+  "homepage": "https://github.com/Onmil/SE-2240-Lab-2-#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
