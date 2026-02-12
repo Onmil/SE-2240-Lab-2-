@@ -4,9 +4,10 @@
   "description": "lab 2 for SE TESTING",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "dev": "nodemon --watch src --exec ts-node src/app.ts",
-    "test": "jest"
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon --watch src --exec ts-node src/server.ts",
+    "test": "jest",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@ import { Router } from "express";
 
 export const router = Router();
 
-let cart: string[] = [];
+let cart: string[] = ["banana", "orange","mango"];
 
 router.get("/", (req, res) => {
   res.json(cart);

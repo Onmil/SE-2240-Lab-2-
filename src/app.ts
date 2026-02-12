@@ -1,5 +1,5 @@
 import express from "express";
-import { router as cartRouter } from "./cart";
+import { router as cartRouter } from "./routes/cart";
 
 const app = express();
 app.use(express.json());
