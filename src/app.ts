@@ -1,8 +1,10 @@
-import express from "express";
-import { router as cartRouter } from "./routes/cart";
+import express from 'express';
+import { registerRoutes } from './routes/routes';
 
 const app = express();
+
 app.use(express.json());
-app.use("/cart", cartRouter);
+
+registerRoutes(app);
 
 export { app };
