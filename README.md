@@ -11,7 +11,6 @@ This project is a backend-only Express API using Supabase for the database. It i
 ```
 git clone https://github.com/Onmil/SE-2240-Lab-2-.git
 cd SE-2240-Lab-2-
-git checkout Branch-Final
 ```
 
 2. Install dependencies:
@@ -31,10 +30,10 @@ JWT_SECRET=your_super_secret_key
 JWT_LIFETIME=1d
 ````
 
-4. Starting the development server:
+4. Starting the server:
 
 ```
-npm run dev
+npm start
 ```
 
 5. Run tests:
