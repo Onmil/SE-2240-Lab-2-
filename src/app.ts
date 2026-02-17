@@ -7,4 +7,4 @@ app.use(express.json());
 
 registerRoutes(app);
 
-export { app };
+export default app; // default export for testing purposes
